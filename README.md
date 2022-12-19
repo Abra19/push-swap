@@ -33,8 +33,8 @@ In other case, checker must display "KO" followed
 3. Running an executables `./push_swap` and `./checker`  with `-help` option will show possible ways to run the program
 4. Running with 30 random args: 
 
-   ;;ARG=`ruby -e "puts (0..30).to_a.shuffle.join(' ')"` && ./push_swap $ARG | ./checker $ARG;;
+   ```ARG=`ruby -e "puts (0..30).to_a.shuffle.join(' ')"` && ./push_swap $ARG | ./checker $ARG```
 
 5. Running with visualisation of sorting process:
 
-   ;;ARG=`ruby -e "puts (0..30).to_a.shuffle.join(' ')"` && ./push_swap $ARG | ./checker -m $ARG;;
+   ```ARG=`ruby -e "puts (0..30).to_a.shuffle.join(' ')"` && ./push_swap $ARG | ./checker -m $ARG```
