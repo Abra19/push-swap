@@ -7,7 +7,7 @@ A contains a random number of either positive or negative numbers without any du
 ### Goal
 Sort this numbers in ascending order into stack A
 
-### Authorized operation
+### Authorized operations
 * sa: swap the first 2 elements at the top of stack A
 * sb: swap the first 2 elements at the top of stack B
 * ss: sa and sb at the same time
