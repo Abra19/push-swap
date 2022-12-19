@@ -21,9 +21,9 @@ Sort this numbers in ascending order into stack A
 * rrr: rra and rrb at the same time
 
 ### There are two executables
--  push_swap receive as an argument the stack of integers. Program must display the list of instructions to sort the stack A,
+- `./push_swap` receive as an argument the stack of integers. Program must display the list of instructions to sort the stack A,
 the smallest number being at the top
-- checker program check if the list of instructions generate with the program push_swap is actually sorting the stack properly.
+- `./checker` program check if the list of instructions generate with the program push_swap is actually sorting the stack properly.
 If after executing those instructions, stack a is actually sorted checker display "OK".
 In other case, checker must display "KO" followed
 
