@@ -20,7 +20,7 @@ Sort this numbers in ascending order into stack A
 * rrb: shift down all elements of stack b by 1: last element becomes the first one
 * rrr: rra and rrb at the same time
 
-### There are two executable
+### There are two executables
 -  push_swap receive as an argument the stack of integers. Program must display the list of instructions to sort the stack A,
 the smallest number being at the top
 - checker program check if the list of instructions generate with the program push_swap is actually sorting the stack properly.
