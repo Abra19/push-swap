@@ -14,11 +14,9 @@
 
 void	align_right_ptr(t_ptf *pr, t_prs *prs, size_t len, size_t prc)
 {
-	int		j;
 	int		n;
 	int		size;
 
-	j = 0;
 	n = 2;
 	size = (int)len - (int)prc - n;
 	prs_sym(prs);
