@@ -1,13 +1,13 @@
-### Push-Swap
+# Push-Swap
 
 We have 2 stacks named A and B
-# Start 
+### Start 
 A contains a random number of either positive or negative numbers without any duplicates. B is empty
 
-# Goal
+### Goal
 Sort this numbers in ascending order into stack A
 
-# Authorized operation
+### Authorized operation
 * sa: swap the first 2 elements at the top of stack A
 * sb: swap the first 2 elements at the top of stack B
 * ss: sa and sb at the same time
@@ -20,7 +20,7 @@ Sort this numbers in ascending order into stack A
 * rrb: shift down all elements of stack b by 1: last element becomes the first one
 * rrr: rra and rrb at the same time
 
-# There are two executable
+### There are two executable
 -  push_swap receive as an argument the stack of integers. Program must display the list of instructions to sort the stack A,
 the smallest number being at the top
 - checker program check if the list of instructions generate with the program push_swap is actually sorting the stack properly.
@@ -33,8 +33,8 @@ In other case, checker must display "KO" followed
 3. Running an executables `./push_swap` and `./checker`  with -help option will show possible ways to run the program
 4. Running with random args: 
 
-`ARG=`ruby -e "puts (0..30).to_a.shuffle.join(' ')"` && ./push_swap $ARG | ./checker $ARG`
+   `ARG=`ruby -e "puts (0..30).to_a.shuffle.join(' ')"` && ./push_swap $ARG | ./checker $ARG`
 
 5. Running with visualisation of sorting process:
 
-`ARG=`ruby -e "puts (0..30).to_a.shuffle.join(' ')"` && ./push_swap $ARG | ./checker -m $ARG`
+   `ARG=`ruby -e "puts (0..30).to_a.shuffle.join(' ')"` && ./push_swap $ARG | ./checker -m $ARG`
